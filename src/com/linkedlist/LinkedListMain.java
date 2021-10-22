@@ -15,7 +15,6 @@ public class LinkedListMain {
 		myLinkedList.add(mySecondNode);
 		myLinkedList.add(myThirdNode);
 		INode getNode = myLinkedList.findNode();
-		System.out.println("find key is "+getNode.getKey());
 		myLinkedList.printMyNodes();
 		boolean result = myLinkedList.head.equals(myThirdNode) &&
 				 myLinkedList.head.getNext().equals(mySecondNode)&&
