@@ -15,10 +15,8 @@ public class LinkedListMain {
 		myLinkedList.add(nodeThree);
 		myLinkedList.printNodes();
 		boolean result = myLinkedList.head.equals(nodeThree)&&
-						 myLinkedList.head.getNext().equals(nodeTwo)&&
-						 myLinkedList.tail.equals(nodeOne);
+				 myLinkedList.head.getNext().equals(nodeTwo)&&
+				 myLinkedList.tail.equals(nodeOne);
 		Assert.assertTrue(result);	
-
-		
 	}
 }
